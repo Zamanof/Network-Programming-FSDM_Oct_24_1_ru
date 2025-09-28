@@ -22,5 +22,4 @@ while (true)
     var length = listener.ReceiveFrom(buffer, ref endPoint);
     var message = Encoding.Default.GetString(buffer, 0, length);
     Console.Write(message);
-
 }
