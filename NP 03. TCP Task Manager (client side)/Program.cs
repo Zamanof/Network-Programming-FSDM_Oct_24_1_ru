@@ -2,7 +2,7 @@
 using System.Net.Sockets;
 using System.Text.Json;
 
-var ip = IPAddress.Parse("127.0.0.1");
+var ip = IPAddress.Parse("10.2.11.5");
 var port = 27001;
 
 var client = new TcpClient();

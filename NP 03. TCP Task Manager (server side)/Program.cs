@@ -35,7 +35,6 @@ while (true)
             case Command.Kill:
                 break;
         }
-
     }
 }
 
